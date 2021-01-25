@@ -18,8 +18,8 @@ async function initialize() {
 
   app.use("/", urlRouter);
 
-  app.listen(env.process.PORT, () => {
-    console.log(`App is listening on port ${env.process.PORT}!!!`);
+  app.listen(process.env.PORT, () => {
+    console.log(`App is listening on port ${process.env.PORT}!!!`);
   });
 }
 
