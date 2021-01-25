@@ -26,3 +26,5 @@ A short URL
 4. navigate to folder shorturl and run the following command.
 `npm install && cd shorturlui && npm install && cd .. && npm run dev`
 5. The UI will start on port 3000 and backend on 9000. This is hardcoded for now.
+But can be changed. To change the PORT of backend simply change PORT in .env files
+in root directory and shorturlui directory.
